@@ -19,4 +19,4 @@ class Point():
         diff = self - p
         return sqrt(diff.x ** 2 + diff.y ** 2)
 
-
+#
