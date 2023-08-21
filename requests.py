@@ -4,7 +4,9 @@ SITES = [
     'http://youtube.com',
     'http://google.com',
     'http://python.org',
-    'http://cnn.com'
+    'http://cnn.com',
+    'http://abc.com',
+    'http://github.com'
 ]
 
 
@@ -14,4 +16,4 @@ def get_status(url):
 
 
 if __name__ == '__main__':
-    get_status('http://py')
+    get_status('http://python.org')
